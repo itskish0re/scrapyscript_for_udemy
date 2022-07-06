@@ -30,9 +30,9 @@ class Udemy_Scraper(scrapy.Spider):
 
     # string query parameters
     params = {
-        'p': 198,
+        'p': 1,
         'page_size': 50,
-        'category_id': 288,
+        'category_id': 288,                 # To change course category change category_id
         'source_page': 'category_page',
         'currency': 'inr',
         'skip_price': 'false',
